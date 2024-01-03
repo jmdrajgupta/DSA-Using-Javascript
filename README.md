@@ -1,6 +1,4 @@
-# DSA-Using-Javascript
-
-###Topics 
+#Topics 
 
     1) Array
     2) String

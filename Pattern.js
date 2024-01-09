@@ -4,7 +4,7 @@
 *****
 *****
 *****
-  
+   
 <script>
   
 const rows= Number(window.prompt("No of Rows??", ""));

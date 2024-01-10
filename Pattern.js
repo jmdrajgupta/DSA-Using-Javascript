@@ -17,3 +17,20 @@ const columns= Number(window.prompt("No of Columns ??", ""));
          }
       
   </script>
+
+# Right Angle Triangle
+
+*
+**
+***
+****
+*****
+
+<script>
+for(let i=0;i<5;i++){
+  for(let j=0;j<=i;j++){
+    document.write("*");
+  }
+  document.write("<br>")
+}
+</script>

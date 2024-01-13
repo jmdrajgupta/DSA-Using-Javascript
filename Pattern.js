@@ -69,3 +69,28 @@ for(let i=1;i<=5;i++){
 document.write("<br>")
 }
 </script>
+
+
+# pyramid
+      *
+      **
+     ***
+     ****
+     *****
+
+   
+   <script>
+   
+  for(let i=1;i<=5;i++){
+    for(let j=1;j<=5-i;j++){
+      document.write("&nbsp;&nbsp;")
+    }
+    for(let k=1;k<=i;k++){
+      document.write("*")
+    }
+    for(let l=2;l<=i;l++){
+      document.write("*")
+    }
+    document.write("<br>")
+  }
+    </script>

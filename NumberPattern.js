@@ -27,4 +27,27 @@
       document.write("<br>")
     }
   </script>
+
+
+       1
+      222
+     33333
+    4444444
+   555555555
+
+ <script>
+
+    for(let i=1;i<=5;i++){
+    for(let j=1;j<=5-i;j++){
+      document.write("&nbsp;&nbsp;")
+    }
+    for(let k=1;k<=i;k++){
+      document.write(i)
+    }
+    for(let l=2;l<=i;l++){
+      document.write(i)
+    }
+    document.write("<br>")
+  }
+    </script>
      

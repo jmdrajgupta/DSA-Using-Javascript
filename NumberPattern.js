@@ -40,14 +40,34 @@
     for(let i=1;i<=5;i++){
     for(let j=1;j<=5-i;j++){
       document.write("&nbsp;&nbsp;")
+    }<script>
+  for(let i=0;i<=5;i++){
+    for(let j=0;j<=i;j++){
+      document.write(i+j)
     }
+    document.write("<br>")
+
+  }
+</script>
+0
+12
+234
+3456
+45678
+5678910
+
     for(let k=1;k<=i;k++){
       document.write(i)
     }
     for(let l=2;l<=i;l++){
-      document.write(i)
+      document.write(i+j)
     }
     document.write("<br>")
   }
     </script>
+
+
+
+
+
      

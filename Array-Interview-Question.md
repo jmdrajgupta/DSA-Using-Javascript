@@ -7,41 +7,36 @@ What is Array in JavaScript?
     Array Element: Each value within an array is called an element. Elements are accessed by their index.
     Array Index: A numeric representation that indicates the position of an element in the array. JavaScript arrays are zero-indexed, meaning the first element is at index 0.
     Array Length: The number of elements in an array. It can be retrieved using the length property.
-1. Declaration of an Array
-1. Creating an Array using Array Literal
-   Syntax:
 
-   let arrayName = [value1, value2, ...];
+**Question1**
 
-2. Creating an Array using Array Constructor (JavaScript new Keyword)
-   Syntax:
+Increase and Decrease the Array Length
 
-   let arrayName = new Array();
+    let courses = ["HTML", "CSS", "Javascript", "React", "Node.js"]; 
+    the array length to 7 
+    courses.length = 7; 
+    console.log("Array After Increase the Length: ", courses); 
 
-   
-Creating and Initializing an array with values 
-let courses = new Array("HTML", "CSS", "Javascript", "React"); 
+    Array After Increase the Length:  [ 'HTML', 'CSS', 'Javascript', 'React', 'Node.js', <2 empty items> ]
 
-Initializing Array while declaring 
-let arr = new Array(3); 
+    Decrease the array length to 2 
+    courses.length = 2; 
+
+    console.log("Array After decrease the Length: ", courses); 
+    Array After decrease the Length:  [ 'HTML', 'CSS' ]
+
+**Question2**
+
+What is the difference between .map() and .forEach()?
 
 
-**2.Increase and Decrease the Array Length**
 
-let courses = ["HTML", "CSS", "Javascript", "React", "Node.js"]; 
+    .map() and .forEach() are both array methods that allow you to loop through an array, but they differ in what they return.
 
-Increase the array length to 7 
-courses.length = 7; 
- 
-console.log("Array After Increase the Length: ", courses); 
+    .map() returns a new array with the same length as the original array,
+    where each element is the result of applying a callback function to the original element.
+    
+    .forEach() does not return anything, but it simply executes a callback function on each element of the array.
 
-Array After Increase the Length:  [ 'HTML', 'CSS', 'Javascript', 'React', 'Node.js', <2 empty items> ]
-
-// Decrease the array length to 2 
-courses.length = 2; 
-
-console.log("Array After decrease the Length: ", courses); 
-
-Array After decrease the Length:  [ 'HTML', 'CSS' ]
 
 

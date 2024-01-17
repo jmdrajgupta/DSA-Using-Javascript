@@ -26,7 +26,7 @@ Initializing Array while declaring
 let arr = new Array(3); 
 
 
-Increase and Decrease the Array Length
+**Increase and Decrease the Array Length**
 
 let courses = ["HTML", "CSS", "Javascript", "React", "Node.js"]; 
 

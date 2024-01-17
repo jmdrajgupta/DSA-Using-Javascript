@@ -38,5 +38,16 @@ What is the difference between .map() and .forEach()?
     
     .forEach() does not return anything, but it simply executes a callback function on each element of the array.
 
+   **Question3:**
+   
+ What is the difference between .filter() and .find()?
+        
+    Both 
+    .filter() and .find() are array methods that allow you to search for elements in an array that meet certain criteria.
+
+    .filter() returns a new array with all elements that pass a certain test provided by a callback function.
+    .find() returns the value of the first element in the array that passes a certain test provided by a callback function.
+
+
 
 

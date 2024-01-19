@@ -12,3 +12,9 @@ Sum of All Array Element
     let newarr=arr.reduce((a,b)=>{
     return a+b;});
     document.write(newarr);
+
+# Question 3 
+    let arr=[1,2,5,8,6,1,]
+    let newarr=arr.reduce((a,b)=>{
+    return a+b/arr.length;})
+    document.write(newarr);

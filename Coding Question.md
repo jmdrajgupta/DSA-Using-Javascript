@@ -14,6 +14,7 @@ Sum of All Array Element
     document.write(newarr);
 
 # Question 3 
+Average of All Array Element
     let arr=[1,2,5,8,6,1,]
     let newarr=arr.reduce((a,b)=>{
     return a+b/arr.length;})

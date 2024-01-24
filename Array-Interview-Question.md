@@ -47,7 +47,14 @@ What is the difference between .map() and .forEach()?
 
     .filter() returns a new array with all elements that pass a certain test provided by a callback function.
     .find() returns the value of the first element in the array that passes a certain test provided by a callback function.
+**Question4:**
+            
+    What is the ‘this’ keyword in JavaScript?
+     JavaScript this keyword always holds the reference to a single object, which defines the current line of code’s execution context which means this keyword refers to the object that is currently executing the code.
 
+    The value that this store is the current execution context of the JavaScript program.
+
+    Thus, when used inside a function this value will change depending on how that function is defined, how it is invoked, and the default execution context. this keyword will refer to different objects depending on how it      is used. 
 
 
 

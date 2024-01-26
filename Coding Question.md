@@ -20,3 +20,16 @@ Average of All Array Element
     let newarr=arr.reduce((a,b)=>{
     return a+b/arr.length;})
     document.write(newarr);
+
+**Question 4**
+what will be the output?
+        
+        function main(){
+    console.log('A');
+    setTimeout(
+        function print(){ console.log('B'); }
+        ,0);
+    console.log('C');
+        }
+        main(); 
+    Output: A,C and B

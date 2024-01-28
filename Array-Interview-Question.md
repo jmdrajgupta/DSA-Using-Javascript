@@ -57,6 +57,7 @@ What is the ‘this’ keyword in JavaScript?
 
     Thus, when used inside a function this value will change depending on how that function is defined, how it is invoked, and the default execution context. this keyword will refer to different objects depending on how it      is used. 
 **Question5:**
+
 What is the difference between null and undefined?
         
     null is an assignment value that represents no value or an empty value, while undefined is a variable that has been declared but not assigned a value.

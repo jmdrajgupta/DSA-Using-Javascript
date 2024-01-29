@@ -61,3 +61,8 @@ What is the ‘this’ keyword in JavaScript?
 What is the difference between null and undefined?
         
     null is an assignment value that represents no value or an empty value, while undefined is a variable that has been declared but not assigned a value.
+**Question6:**
+
+What is Closure? Give an example.
+
+    Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope. It gives you access to an outer function’s scope from an inner       function. In JavaScript, closures are created every time a function is created. To use a closure, simply define a function inside another function and expose it.
